@@ -1,0 +1,34 @@
+@startuml
+annotation java.lang.Override
+class ac.daffodil.l4dc1000084.budgets.bean.AccountInfo
+class ac.daffodil.l4dc1000084.budgets.bean.CategoryInfo
+class ac.daffodil.l4dc1000084.budgets.bean.ScheduleInfo
+class ac.daffodil.l4dc1000084.budgets.bean.TransactionInfo
+class ac.daffodil.l4dc1000084.budgets.bean.UserAccountAuthenticationInfo
+class ac.daffodil.l4dc1000084.budgets.bean.UserInfo
+class java.util.Date
+class java.util.Objects
+interface java.io.Serializable
+ac.daffodil.l4dc1000084.budgets.bean.AccountInfo ..> java.lang.Override
+ac.daffodil.l4dc1000084.budgets.bean.AccountInfo ..> java.util.Date
+ac.daffodil.l4dc1000084.budgets.bean.AccountInfo ..> java.util.Objects
+ac.daffodil.l4dc1000084.budgets.bean.AccountInfo --|> java.io.Serializable
+ac.daffodil.l4dc1000084.budgets.bean.CategoryInfo ..> java.lang.Override
+ac.daffodil.l4dc1000084.budgets.bean.CategoryInfo ..> java.util.Objects
+ac.daffodil.l4dc1000084.budgets.bean.CategoryInfo --|> java.io.Serializable
+ac.daffodil.l4dc1000084.budgets.bean.ScheduleInfo ..> java.lang.Override
+ac.daffodil.l4dc1000084.budgets.bean.ScheduleInfo ..> java.util.Date
+ac.daffodil.l4dc1000084.budgets.bean.ScheduleInfo ..> java.util.Objects
+ac.daffodil.l4dc1000084.budgets.bean.ScheduleInfo --|> java.io.Serializable
+ac.daffodil.l4dc1000084.budgets.bean.TransactionInfo ..> java.lang.Override
+ac.daffodil.l4dc1000084.budgets.bean.TransactionInfo ..> java.util.Date
+ac.daffodil.l4dc1000084.budgets.bean.TransactionInfo ..> java.util.Objects
+ac.daffodil.l4dc1000084.budgets.bean.TransactionInfo --|> java.io.Serializable
+ac.daffodil.l4dc1000084.budgets.bean.UserAccountAuthenticationInfo ..> java.lang.Override
+ac.daffodil.l4dc1000084.budgets.bean.UserAccountAuthenticationInfo ..> java.util.Objects
+ac.daffodil.l4dc1000084.budgets.bean.UserAccountAuthenticationInfo --|> java.io.Serializable
+ac.daffodil.l4dc1000084.budgets.bean.UserInfo ..> java.lang.Override
+ac.daffodil.l4dc1000084.budgets.bean.UserInfo ..> java.util.Date
+ac.daffodil.l4dc1000084.budgets.bean.UserInfo ..> java.util.Objects
+ac.daffodil.l4dc1000084.budgets.bean.UserInfo --|> java.io.Serializable
+@enduml
